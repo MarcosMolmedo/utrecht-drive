@@ -1,0 +1,261 @@
+
+{
+  "HomePage": {
+    "title": "Driving lessons in Utrecht",
+    "description": "Learn to drive with confidence, at your own pace.",
+    "cta": "Book a trial lesson"
+  },
+  "Navigation": {
+    "mainNav": "Main navigation",
+    "lessons": "Driving lessons",
+    "pricing": "Pricing",
+    "about": "About us",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "trial": "Book a trial lesson",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Hero": {
+    "eyebrow": "DRIVING SCHOOL IN UTRECHT",
+    "titleBefore": "Driving lessons in English for",
+    "highlight": "expats",
+    "titleAfter": "in Utrecht",
+    "description": "Personal and relaxed driving lessons designed for internationals. Learn to drive safely and confidently in the Netherlands, at your own pace.",
+    "benefitOne": "Lessons in English",
+    "benefitTwo": "Personal guidance",
+    "benefitThree": "Drive with confidence",
+    "primaryCta": "Book a trial lesson",
+    "secondaryCta": "Explore our lessons",
+    "imageAlt": "Illustrative image of a white Renault Mégane driving school car in Utrecht, with the Dom Tower in the background."
+  },
+
+
+"TrustBar": {
+  "ariaLabel": "Why choose our driving school",
+  "english": "Driving lessons in English",
+  "experience": "15+ years of experience",
+  "personal": "Personal guidance",
+  "confidence": "Learn to drive with confidence"
+},
+
+
+"Instructor": {
+  "eyebrow": "Meet your instructor",
+  "title": "More than driving lessons. Confidence for the road ahead.",
+  "lead": "A personal approach that puts you at the centre of every lesson.",
+  "description": "Learning to drive in a new country can feel challenging. With years of teaching experience and a focus on international students, every lesson is adapted to your skills, confidence and individual goals. No unnecessary pressure, no distractions — just dedicated guidance to help you become a safe and independent driver.",
+  "experience": "15+ years of teaching experience",
+  "international": "Specialised in international students",
+  "approach": "Patient, supportive and individual guidance",
+  "badgeNumber": "15+",
+  "badgeText": "Years of teaching experience",
+  "photoAlt": "Illustrative portrait of a Utrecht Drive driving instructor beside a driving school car",
+  "cta": "More about our approach"
+},
+
+
+"Mission": {
+  "eyebrow": "Our mission",
+  "title": "Driving is more than passing a test.",
+  "description": "We believe learning to drive should be about more than getting a licence. It's about developing confidence, respecting others on the road and discovering the freedom to go wherever life takes you.",
+  "respectTitle": "Respect",
+  "respectDescription": "For people, traffic rules and the environment.",
+  "enjoymentTitle": "Enjoyment",
+  "enjoymentDescription": "Feel comfortable behind the wheel and enjoy learning to drive.",
+  "efficiencyTitle": "Efficiency",
+  "efficiencyDescription": "Focused, individual lessons that make every minute count.",
+  "statement": "Your journey. Your pace. Your freedom.",
+  "cta": "Discover our method"
+},
+
+
+"Method": {
+  "eyebrow": "Our method",
+  "title": "Learn step by step. Drive with confidence.",
+  "description": "A structured approach, adapted to your experience, confidence and learning pace.",
+  "stepOneTitle": "Vehicle control",
+  "stepOneDescription": "Build confidence with steering, braking, gears and vehicle handling.",
+  "stepTwoTitle": "Traffic awareness",
+  "stepTwoDescription": "Learn to observe, anticipate and make safe decisions on the road.",
+  "stepThreeTitle": "Independent driving",
+  "stepThreeDescription": "Apply your skills in real traffic situations and prepare for your CBR exam.",
+  "statement": "One student. One instructor. Every minute focused on you.",
+  "cta": "Book a trial lesson"
+},
+
+
+
+"Lessons": {
+  "eyebrow": "Our driving lessons",
+  "title": "Driving lessons for every journey.",
+  "description": "Choose the lessons that match your experience, confidence and goals.",
+  "swipeHint": "Swipe to explore our lessons →",
+  "items": {
+    "driving": {
+      "title": "Driving lessons (B)",
+      "description": "Step by step towards your Dutch driving licence.",
+      "alt": "Student driving a car during a lesson"
+    },
+    "english": {
+      "title": "Driving lessons in English",
+      "description": "Personal lessons for expats and internationals.",
+      "alt": "Blue learner driver sign on a driving school car"
+    },
+    "guidance": {
+      "title": "Extra guidance",
+      "description": "Patient support at a pace that feels right for you.",
+      "alt": "Driving instructor offering personal guidance"
+    }
+  }
+},
+
+
+"Pricing": {
+  "eyebrow": "Driving lessons & prices",
+  "title": "Clear prices, no surprises",
+  "description": "Personal driving lessons with transparent pricing. Choose the option that suits your learning journey.",
+  "popular": "Better value",
+  "cards": {
+    "single": {
+      "title": "Single driving lesson",
+      "unit": "60 minutes",
+      "description": "A single lesson costs €85 per hour. A 90-minute lesson costs €120.",
+      "detail": "Flexible lessons without a package"
+    },
+    "package": {
+      "title": "10-lesson package",
+      "unit": "10 × 90 minutes",
+      "description": "Ten 90-minute driving lessons, paid in advance, at a reduced rate.",
+      "detail": "Additional lessons at the same discounted rate"
+    },
+    "exam": {
+      "title": "Practical exam",
+      "unit": "CBR practical exam",
+      "description": "The price of the standard practical exam. Other exam options are listed below.",
+      "detail": "Performance anxiety exam also available"
+    }
+  },
+  "details": {
+    "eyebrow": "Exam fees",
+    "title": "CBR examination fees",
+    "description": "In addition to driving lessons, separate fees apply to the different practical examinations."
+  },
+  "exams": {
+    "regular": "Standard practical exam",
+    "anxiety": "Performance anxiety practical exam",
+    "intermediate": "Intermediate exam"
+  },
+  "notes": {
+    "package": "If more than ten lessons are needed, additional lessons are charged at the same discounted rate.",
+    "vat": "All listed prices include VAT.",
+    "fuel": "Actual prices may temporarily be higher due to high petrol prices.",
+    "confirmation": "These are the published Rijschool Yoox prices. Please confirm current rates with the driving school."
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Ask your questions or find out about booking your first driving lesson.",
+    "button": "Get in touch"
+  }
+},
+
+
+"Reviews": {
+  "eyebrow": "Testimonials",
+  "title": "What our students say",
+  "description": "Personal guidance and confidence behind the wheel.",
+  "demo": "Sample testimonials for website design purposes. These will be replaced with genuine reviews.",
+  "items": {
+    "first": {
+      "quote": "I already had driving experience abroad, but needed to adjust to Dutch traffic rules. The lessons were clear and relaxed.",
+      "name": "Alex M.",
+      "initial": "A",
+      "detail": "Sample testimonial"
+    },
+    "second": {
+      "quote": "I felt comfortable from the first lesson. Everything was explained calmly, and I had time to build my confidence.",
+      "name": "Sophie K.",
+      "initial": "S",
+      "detail": "Sample testimonial"
+    },
+    "third": {
+      "quote": "The lessons were well structured and focused on the areas I needed to improve. A pleasant way to learn to drive.",
+      "name": "Daniel R.",
+      "initial": "D",
+      "detail": "Sample testimonial"
+    }
+  }
+},
+"FAQ": {
+  "eyebrow": "Frequently asked questions",
+  "title": "Everything you need to know",
+  "description": "Answers to common questions about driving lessons, prices and the practical exam.",
+  "items": {
+    "experience": {
+      "question": "I already have driving experience. Will I need many lessons?",
+      "answer": "It depends on your current skills. During the first lesson, the instructor can assess your driving and identify what you need to work on for the Dutch practical exam."
+    },
+    "english": {
+      "question": "Can I take driving lessons in English?",
+      "answer": "Yes, driving lessons are also available in English."
+    },
+    "duration": {
+      "question": "How long is a driving lesson?",
+      "answer": "Lessons are available in 60-minute and 90-minute formats. You can discuss the most suitable duration with your instructor."
+    },
+    "package": {
+      "question": "Do I have to purchase a lesson package?",
+      "answer": "No, individual lessons are also available. There is also a discounted package of ten 90-minute lessons."
+    },
+    "exam": {
+      "question": "When can I take my practical exam?",
+      "answer": "This depends on your driving skills and available CBR exam dates. Your instructor can help you decide when you are ready."
+    },
+    "anxiety": {
+      "question": "Is there support for driving test anxiety?",
+      "answer": "The CBR offers a special practical exam for performance anxiety. Discuss the most suitable guidance and exam option with your instructor."
+    }
+  }
+},
+
+
+"Contact": {
+  "eyebrow": "Contact",
+  "title": "Ready for your first driving lesson?",
+  "description": "Questions about driving lessons, prices or the practical exam? Feel free to get in touch.",
+  "whatsappTitle": "Prefer WhatsApp?",
+  "whatsappDescription": "Ask your questions directly and easily to your driving instructor.",
+  "whatsappPending": "WhatsApp will be available at launch.",
+  "formTitle": "Send a message",
+  "demoNotice": "Demo form: no messages will be sent.",
+  "name": "Name",
+  "namePlaceholder": "Your name",
+  "email": "Email address",
+  "emailPlaceholder": "you@example.com",
+  "message": "Message",
+  "messagePlaceholder": "How can we help you?",
+  "submit": "Preview message",
+  "success": "Demo completed! The form has been validated. No message was sent."
+},
+"FinalCTA": {
+  "title": "Your driving licence starts here",
+  "description": "Personal guidance, clear explanations and driving lessons at your own pace.",
+  "button": "Get in touch"
+},
+"Footer": {
+  "home": "Home",
+  "lessons": "Driving lessons",
+  "pricing": "Pricing",
+  "about": "About us",
+  "reviews": "Reviews",
+  "faq": "FAQ",
+  "contact": "Contact",
+  "navigation": "Navigation",
+  "description": "Personal driving lessons in Utrecht, focused on your progress and confidence.",
+  "contactTitle": "Questions?",
+  "contactDescription": "We're happy to help with information about driving lessons and prices.",
+  "contactButton": "Get in touch",
+  "demo": "Website concept for demonstration"
+}
+
+}

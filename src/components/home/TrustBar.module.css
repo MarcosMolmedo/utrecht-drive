@@ -1,0 +1,70 @@
+
+.trustBar {
+  width: 100%;
+  background: #e8f2f8;
+}
+
+.trustBar__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 16px;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 28px 24px;
+}
+
+.trustBar__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.trustBar__icon {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #10263c;
+}
+
+.trustBar__text {
+  min-width: 0;
+  color: #10263c;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.45;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .trustBar__container {
+    gap: 28px;
+    padding: 30px 48px;
+  }
+
+  .trustBar__icon {
+    width: 29px;
+    height: 29px;
+  }
+
+  .trustBar__text {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trustBar__container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+    padding: 34px 48px;
+  }
+
+  .trustBar__item {
+    justify-content: center;
+    gap: 13px;
+  }
+
+  .trustBar__text {
+    font-size: 18px;
+  }
+}

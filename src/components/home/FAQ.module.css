@@ -1,0 +1,160 @@
+
+/* FAQ — Mobile-first / CSS Modules / BEM */
+
+.faq {
+  width: 100%;
+  padding: 76px 24px;
+  background: #ffffff;
+  color: #10263c;
+  scroll-margin-top: 90px;
+}
+
+.faq__container {
+  display: grid;
+  gap: 34px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/* Introduction */
+
+.faq__intro {
+  max-width: 480px;
+}
+
+.faq__eyebrow {
+  display: block;
+  margin-bottom: 14px;
+  color: #52758a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.faq__title {
+  margin: 0;
+  color: #10263c;
+  font-family: var(--font-heading);
+  font-size: clamp(34px, 7vw, 44px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.faq__description {
+  margin: 18px 0 0;
+  color: #526477;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Accordion */
+
+.faq__list {
+  min-width: 0;
+  border-top: 1px solid #dce5eb;
+}
+
+.faq__item {
+  border-bottom: 1px solid #dce5eb;
+}
+
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px 0;
+  cursor: pointer;
+  list-style: none;
+  color: #10263c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Hide native disclosure marker */
+
+.faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq__question::marker {
+  content: "";
+}
+
+/* Keyboard accessibility */
+
+.faq__question:focus-visible {
+  outline: 2px solid #52758a;
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+/* Plus icon */
+
+.faq__question svg {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.faq__item[open] .faq__question svg {
+  transform: rotate(45deg);
+}
+
+/* Answer */
+
+.faq__answer {
+  padding: 0 30px 24px 0;
+}
+
+.faq__answer p {
+  margin: 0;
+  color: #526477;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+/* Tablet and desktop */
+
+@media (min-width: 768px) {
+  .faq {
+    padding: 100px 48px;
+  }
+
+  .faq__container {
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 70px;
+  }
+
+  .faq__eyebrow {
+    font-size: 14px;
+  }
+
+  .faq__title {
+    font-size: 48px;
+  }
+
+  .faq__description {
+    font-size: 20px;
+  }
+
+  .faq__question {
+    font-size: 20px;
+  }
+
+  .faq__answer p {
+    font-size: 18px;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .faq__question svg {
+    transition: none;
+  }
+}

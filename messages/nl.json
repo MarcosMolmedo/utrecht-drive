@@ -1,0 +1,262 @@
+
+{
+  "HomePage": {
+    "title": "Rijlessen in Utrecht",
+    "description": "Leer autorijden met vertrouwen, op jouw tempo.",
+    "cta": "Proefles aanvragen"
+  },
+  "Navigation": {
+    "mainNav": "Hoofdnavigatie",
+    "lessons": "Rijlessen",
+    "pricing": "Tarieven",
+    "about": "Over ons",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "trial": "Proefles aanvragen",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "Hero": {
+    "eyebrow": "RIJSCHOOL IN UTRECHT",
+    "titleBefore": "Rijlessen in het Engels voor",
+    "highlight": "expats",
+    "titleAfter": "in Utrecht",
+    "description": "Persoonlijke en ontspannen rijlessen, speciaal voor internationals. Leer veilig en zelfverzekerd autorijden in Nederland, op jouw eigen tempo.",
+    "benefitOne": "Rijles in het Engels",
+    "benefitTwo": "Persoonlijke begeleiding",
+    "benefitThree": "Zelfverzekerd op weg",
+    "primaryCta": "Proefles aanvragen",
+    "secondaryCta": "Ontdek onze rijlessen",
+    "imageAlt": "Illustratieve afbeelding van een witte Renault Mégane lesauto in Utrecht, met de Domtoren op de achtergrond."
+  },
+
+
+"TrustBar": {
+  "ariaLabel": "Waarom kiezen voor onze rijschool",
+  "english": "Rijlessen in het Engels",
+  "experience": "15+ jaar ervaring",
+  "personal": "Persoonlijke begeleiding",
+  "confidence": "Met vertrouwen leren rijden"
+},
+
+
+
+"Instructor": {
+  "eyebrow": "Maak kennis met je instructeur",
+  "title": "Meer dan rijlessen. Vertrouwen voor elke rit.",
+  "lead": "Persoonlijke begeleiding waarbij jij centraal staat.",
+  "description": "Leren autorijden in een nieuw land kan best spannend zijn. Met jarenlange leservaring en een specialisatie in internationale leerlingen wordt iedere les afgestemd op jouw vaardigheden, zelfvertrouwen en persoonlijke doelen. Geen onnodige druk of afleiding, maar volledige aandacht om jou te helpen een veilige en zelfstandige bestuurder te worden.",
+  "experience": "15+ jaar leservaring",
+  "international": "Gespecialiseerd in internationale leerlingen",
+  "approach": "Geduldige en persoonlijke begeleiding",
+  "badgeNumber": "15+",
+  "badgeText": "Jaar leservaring",
+  "photoAlt": "Illustratief portret van een rijinstructeur van Utrecht Drive naast een lesauto",
+  "cta": "Meer over onze aanpak"
+}, 
+
+
+"Mission": {
+  "eyebrow": "Onze missie",
+  "title": "Autorijden is meer dan alleen slagen voor je examen.",
+  "description": "Wij geloven dat leren autorijden om meer draait dan alleen het behalen van je rijbewijs. Het gaat om zelfvertrouwen ontwikkelen, respect tonen voor andere weggebruikers en de vrijheid ontdekken om te gaan waar je wilt.",
+  "respectTitle": "Respect",
+  "respectDescription": "Voor mensen, verkeersregels en het milieu.",
+  "enjoymentTitle": "Plezier",
+  "enjoymentDescription": "Voel je op je gemak achter het stuur en geniet van het leren autorijden.",
+  "efficiencyTitle": "Efficiëntie",
+  "efficiencyDescription": "Gerichte, persoonlijke rijlessen waarin elke minuut telt.",
+  "statement": "Jouw reis. Jouw tempo. Jouw vrijheid.",
+  "cta": "Ontdek onze lesmethode"
+},
+
+
+"Method": {
+  "eyebrow": "Onze lesmethode",
+  "title": "Leer stap voor stap. Rijd met vertrouwen.",
+  "description": "Een gestructureerde aanpak, afgestemd op jouw ervaring, zelfvertrouwen en leertempo.",
+  "stepOneTitle": "Voertuigbeheersing",
+  "stepOneDescription": "Leer sturen, remmen, schakelen en je auto met vertrouwen bedienen.",
+  "stepTwoTitle": "Verkeersinzicht",
+  "stepTwoDescription": "Leer goed kijken, situaties inschatten en veilige beslissingen nemen.",
+  "stepThreeTitle": "Zelfstandig rijden",
+  "stepThreeDescription": "Pas je vaardigheden toe in echte verkeerssituaties en bereid je voor op het CBR-praktijkexamen.",
+  "statement": "Eén leerling. Eén instructeur. Alle aandacht voor jou.",
+  "cta": "Vraag een proefles aan"
+},
+
+
+"Lessons": {
+  "eyebrow": "Onze rijlessen",
+  "title": "Rijlessen die bij jou passen.",
+  "description": "Kies de rijles die aansluit bij jouw ervaring, zelfvertrouwen en doelen.",
+  "swipeHint": "Veeg om onze rijlessen te bekijken →",
+  "items": {
+    "driving": {
+      "title": "Autorijles (B)",
+      "description": "Stap voor stap naar je Nederlandse rijbewijs.",
+      "alt": "Leerling oefent met autorijden"
+    },
+    "english": {
+      "title": "Rijles in het Engels",
+      "description": "Persoonlijke rijlessen voor expats en internationals.",
+      "alt": "Blauw lesbord op een lesauto"
+    },
+    "guidance": {
+      "title": "Extra begeleiding",
+      "description": "Rustige begeleiding op jouw eigen tempo.",
+      "alt": "Rijinstructrice biedt persoonlijke begeleiding"
+    }
+  }
+}, 
+
+
+"Pricing": {
+  "eyebrow": "Rijlessen & tarieven",
+  "title": "Duidelijke tarieven, zonder verrassingen",
+  "description": "Persoonlijke rijlessen met transparante tarieven. Kies wat het beste past bij jouw leertraject.",
+  "popular": "Voordelig pakket",
+  "cards": {
+    "single": {
+      "title": "Losse rijles",
+      "unit": "60 minuten",
+      "description": "Een losse rijles kost €85 per uur. Een rijles van 90 minuten kost €120.",
+      "detail": "Flexibel lessen zonder pakket"
+    },
+    "package": {
+      "title": "Pakket 10 lessen",
+      "unit": "10 × 90 minuten",
+      "description": "Tien rijlessen van anderhalf uur, vooraf betaald, voor een voordeliger tarief.",
+      "detail": "Extra lessen tegen hetzelfde gereduceerde tarief"
+    },
+    "exam": {
+      "title": "Praktijkexamen",
+      "unit": "CBR praktijkexamen",
+      "description": "Kosten voor het reguliere praktijkexamen. Andere examenvormen vind je hieronder.",
+      "detail": "Faalangstexamen ook mogelijk"
+    }
+  },
+  "details": {
+    "eyebrow": "Examenkosten",
+    "title": "Kosten voor het CBR-examen",
+    "description": "Naast de rijlessen zijn er aparte tarieven voor de verschillende praktijkexamens."
+  },
+  "exams": {
+    "regular": "Regulier praktijkexamen",
+    "anxiety": "Faalangstexamen",
+    "intermediate": "Tussentijdse toets"
+  },
+  "notes": {
+    "package": "Na het pakket van tien lessen worden eventuele extra lessen tegen hetzelfde gereduceerde tarief berekend.",
+    "vat": "Alle genoemde prijzen zijn inclusief btw.",
+    "fuel": "Door hoge brandstofprijzen kunnen de werkelijke tarieven tijdelijk hoger zijn.",
+    "confirmation": "Dit zijn de gepubliceerde tarieven van Rijschool Yoox. Bevestig de actuele prijzen bij de rijschool."
+  },
+  "cta": {
+    "title": "Klaar om te beginnen?",
+    "description": "Stel je vragen of informeer naar de mogelijkheden voor je eerste rijles.",
+    "button": "Neem contact op"
+  }
+},
+
+
+"Reviews": {
+  "eyebrow": "Ervaringen",
+  "title": "Wat onze leerlingen zeggen",
+  "description": "Persoonlijke begeleiding en vertrouwen achter het stuur.",
+  "demo": "Voorbeeldreviews voor het websiteontwerp. Deze worden vervangen door echte ervaringen.",
+  "items": {
+    "first": {
+      "quote": "Ik had al rijervaring in het buitenland, maar moest wennen aan de Nederlandse verkeersregels. De lessen waren duidelijk en ontspannen.",
+      "name": "Alex M.",
+      "initial": "A",
+      "detail": "Voorbeeldreview"
+    },
+    "second": {
+      "quote": "Ik voelde me vanaf de eerste les op mijn gemak. Alles werd rustig uitgelegd en ik kreeg de tijd om zelfvertrouwen op te bouwen.",
+      "name": "Sophie K.",
+      "initial": "S",
+      "detail": "Voorbeeldreview"
+    },
+    "third": {
+      "quote": "De lessen waren goed gestructureerd en gericht op wat ik nog moest verbeteren. Een prettige manier om te leren rijden.",
+      "name": "Daniel R.",
+      "initial": "D",
+      "detail": "Voorbeeldreview"
+    }
+  }
+},
+"FAQ": {
+  "eyebrow": "Veelgestelde vragen",
+  "title": "Alles wat je wilt weten",
+  "description": "Antwoorden op veelgestelde vragen over rijlessen, tarieven en het praktijkexamen.",
+  "items": {
+    "experience": {
+      "question": "Ik heb al rijervaring. Heb ik nog veel lessen nodig?",
+      "answer": "Dat verschilt per leerling. Tijdens de eerste les kan de instructeur je rijvaardigheid beoordelen en aangeven waar je nog aan moet werken voor het Nederlandse praktijkexamen."
+    },
+    "english": {
+      "question": "Kan ik rijlessen in het Engels volgen?",
+      "answer": "Ja, rijlessen zijn ook in het Engels mogelijk."
+    },
+    "duration": {
+      "question": "Hoe lang duurt een rijles?",
+      "answer": "Er zijn lessen van 60 en 90 minuten. Welke lesduur het beste past, kun je met de instructeur bespreken."
+    },
+    "package": {
+      "question": "Moet ik een lespakket kopen?",
+      "answer": "Nee, je kunt ook losse lessen volgen. Er is daarnaast een pakket van tien lessen van 90 minuten tegen een gereduceerd tarief."
+    },
+    "exam": {
+      "question": "Wanneer kan ik praktijkexamen doen?",
+      "answer": "Dat hangt af van je rijvaardigheid en de beschikbare examendata bij het CBR. De instructeur kan je helpen bepalen wanneer je klaar bent."
+    },
+    "anxiety": {
+      "question": "Is er begeleiding bij faalangst?",
+      "answer": "Er bestaat een speciaal CBR-faalangstexamen. Bespreek met de instructeur welke begeleiding en examenvorm bij jou passen."
+    }
+  }
+},
+
+
+"Contact": {
+  "eyebrow": "Contact",
+  "title": "Klaar voor jouw eerste rijles?",
+  "description": "Heb je vragen over rijlessen, tarieven of het praktijkexamen? Neem gerust contact op.",
+  "whatsappTitle": "Liever via WhatsApp?",
+  "whatsappDescription": "Stel je vragen eenvoudig en rechtstreeks aan de rijinstructeur.",
+  "whatsappPending": "WhatsApp wordt toegevoegd bij de lancering.",
+  "formTitle": "Stuur een bericht",
+  "demoNotice": "Demonstratieformulier: er worden geen berichten verzonden.",
+  "name": "Naam",
+  "namePlaceholder": "Jouw naam",
+  "email": "E-mailadres",
+  "emailPlaceholder": "jouw@email.nl",
+  "message": "Bericht",
+  "messagePlaceholder": "Waarmee kunnen we je helpen?",
+  "submit": "Bericht bekijken",
+  "success": "Demonstratie geslaagd! Het formulier is gecontroleerd. Er is geen bericht verzonden."
+},
+"FinalCTA": {
+  "title": "Jouw rijbewijs begint hier",
+  "description": "Persoonlijke begeleiding, duidelijke uitleg en rijlessen op jouw tempo.",
+  "button": "Neem contact op"
+},
+"Footer": {
+  "home": "Home",
+  "lessons": "Rijlessen",
+  "pricing": "Tarieven",
+  "about": "Over ons",
+  "reviews": "Reviews",
+  "faq": "Veelgestelde vragen",
+  "contact": "Contact",
+  "navigation": "Navigatie",
+  "description": "Persoonlijke rijlessen in Utrecht, met aandacht voor jouw ontwikkeling en zelfvertrouwen.",
+  "contactTitle": "Vragen?",
+  "contactDescription": "We helpen je graag verder met informatie over rijlessen en tarieven.",
+  "contactButton": "Neem contact op",
+  "demo": "Websiteconcept ter demonstratie"
+}
+
+
+}

@@ -1,0 +1,235 @@
+
+.header {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid var(--color-border);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+.header__container {
+  width: calc(100% - 32px);
+  max-width: 1440px;
+  min-height: 84px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Brand */
+
+.header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.header__brand-icon {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: 13px;
+}
+
+.header__brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header__brand-text strong {
+  font-family: var(--font-manrope), Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.header__brand-text small {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--color-text-secondary);
+}
+
+/* Desktop elements hidden by default */
+
+.header__nav,
+.header__actions {
+  display: none;
+}
+
+/* Mobile toggle */
+
+.header__toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-primary);
+}
+
+/* Mobile navigation */
+
+.header__mobile {
+  display: none;
+  background: #ffffff;
+  border-top: 1px solid var(--color-border);
+}
+
+.header__mobile--open {
+  display: block;
+}
+
+.header__mobile-inner {
+  width: calc(100% - 32px);
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 12px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__mobile-link {
+  padding: 18px 0;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header__mobile-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 56px;
+  margin-top: 24px;
+  padding: 16px 22px;
+  background: var(--color-primary);
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header__mobile-languages {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 28px;
+  font-size: 17px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  .header__container {
+    width: calc(100% - 64px);
+    min-height: 100px;
+  }
+
+  .header__brand-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  .header__brand-text strong {
+    font-size: 22px;
+  }
+
+  .header__brand-text small {
+    font-size: 11px;
+  }
+
+  .header__mobile-inner {
+    width: calc(100% - 64px);
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1350px) {
+  .header__container {
+    min-height: 110px;
+    gap: 30px;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(20px, 2vw, 36px);
+  }
+
+  .header__nav-link {
+    font-family: var(--font-inter), Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+  }
+
+  .header__nav-link:hover,
+  .header__nav-link[aria-current="page"] {
+    color: #477c9c;
+  }
+
+  .header__actions {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+  }
+
+  .header__languages {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    color: var(--color-text-secondary);
+  }
+
+  .header__language {
+    font-weight: 500;
+  }
+
+  .header__language--active {
+    color: var(--color-primary);
+    font-weight: 800;
+  }
+
+  .header__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 56px;
+    padding: 16px 22px;
+    background: var(--color-primary);
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+
+  .header__cta:hover {
+    background: var(--color-primary-hover);
+  }
+
+  .header__toggle,
+  .header__mobile,
+  .header__mobile--open {
+    display: none;
+  }
+}

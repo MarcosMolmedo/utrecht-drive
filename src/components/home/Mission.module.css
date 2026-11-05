@@ -1,0 +1,261 @@
+
+/* MISSION — Mobile-first / CSS Modules / BEM */
+
+.mission {
+  width: 100%;
+  overflow: hidden;
+  padding: 68px 0 76px;
+  background: #e8f2f8;
+  color: #10263c;
+  scroll-margin-top: 90px;
+}
+
+.mission__container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/* Header */
+
+.mission__header {
+  max-width: 750px;
+  padding-inline: 24px;
+}
+
+.mission__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+  color: #52758a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.mission__eyebrow-line {
+  width: 32px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #a9d9f2;
+}
+
+.mission__title {
+  max-width: 750px;
+  margin: 0;
+  color: #10263c;
+  font-family: var(--font-heading);
+  font-size: clamp(38px, 8vw, 44px);
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+
+.mission__description {
+  max-width: 680px;
+  margin: 22px 0 0;
+  color: #526477;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Values — horizontal scroll on mobile */
+
+.mission__values {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 24px;
+  padding: 4px 24px 20px;
+  margin-top: 36px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mission__values::-webkit-scrollbar {
+  display: none;
+}
+
+.mission__card {
+  display: flex;
+  flex: 0 0 84%;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding: 28px;
+  scroll-snap-align: start;
+  border: 1px solid #dce9f0;
+  border-radius: 14px;
+  background: #ffffff;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.mission__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px #10263c0d;
+}
+
+.mission__card-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  background: #e8f2f8;
+  color: #10263c;
+}
+
+.mission__card-title {
+  margin: 0;
+  color: #10263c;
+  font-family: var(--font-heading);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.mission__card-description {
+  margin: 12px 0 0;
+  color: #596979;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+/* Footer */
+
+.mission__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 28px;
+  padding-inline: 24px;
+}
+
+.mission__statement {
+  margin: 0;
+  color: #10263c;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.mission__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #a9d9f2;
+  color: #10263c;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: gap 0.2s ease;
+}
+
+.mission__link:hover {
+  gap: 16px;
+}
+
+/* Tablet and desktop */
+
+@media (min-width: 768px) {
+  .mission {
+    overflow: visible;
+    padding: 90px 48px;
+  }
+
+  .mission__header {
+    padding-inline: 0;
+  }
+
+  .mission__eyebrow {
+    font-size: 14px;
+  }
+
+  .mission__title {
+    font-size: clamp(48px, 4.5vw, 58px);
+  }
+
+  .mission__description {
+    font-size: 20px;
+    line-height: 1.75;
+  }
+
+  .mission__values {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    overflow: visible;
+    padding: 4px 0 12px;
+    margin-top: 48px;
+  }
+
+  .mission__card {
+    padding: 26px;
+  }
+
+  .mission__card-title {
+    font-size: 27px;
+  }
+
+  .mission__card-description {
+    font-size: 18px;
+  }
+
+  .mission__footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 36px;
+    padding-inline: 0;
+  }
+
+  .mission__statement,
+  .mission__link {
+    font-size: 18px;
+  }
+}
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+  .mission {
+    padding: 100px 48px;
+  }
+
+  .mission__values {
+    gap: 24px;
+  }
+
+  .mission__card {
+    padding: 34px;
+  }
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .mission__card,
+  .mission__link {
+    transition: none;
+  }
+
+  .mission__card:hover {
+    transform: none;
+  }
+
+  .mission__values {
+    scroll-behavior: auto;
+  }
+}
