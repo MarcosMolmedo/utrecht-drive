@@ -1,26 +1,20 @@
 
 import Image from "next/image";
-import {ArrowUpRight} from "lucide-react";
 import {useTranslations} from "next-intl";
-
-import {Link} from "@/i18n/navigation";
 import styles from "./Lessons.module.css";
 
 const lessons = [
   {
     key: "driving",
-    image: "/images/home/lessons/driving-lessons.png",
-    href: "/#contact"
+    image: "/images/home/lessons/driving-lessons.png"
   },
   {
     key: "english",
-    image: "/images/home/lessons/english-lessons.png",
-    href: "/#contact"
+    image: "/images/home/lessons/english-lessons.png"
   },
   {
     key: "guidance",
-    image: "/images/home/lessons/extra-guidance.png",
-    href: "/#contact"
+    image: "/images/home/lessons/extra-guidance.png"
   }
 ] as const;
 
@@ -28,14 +22,21 @@ export default function Lessons() {
   const t = useTranslations("Lessons");
 
   return (
-    <section className={styles.lessons} id="lessons">
+    <section
+      className={styles.lessons}
+      id="lessons"
+      aria-labelledby="lessons-title"
+    >
       <div className={styles.lessons__container}>
         <header className={styles.lessons__heading}>
           <span className={styles.lessons__eyebrow}>
             {t("eyebrow")}
           </span>
 
-          <h2 className={styles.lessons__title}>
+          <h2
+            id="lessons-title"
+            className={styles.lessons__title}
+          >
             {t("title")}
           </h2>
 
@@ -44,14 +45,10 @@ export default function Lessons() {
           </p>
         </header>
 
-        <div
-          className={styles.lessons__grid}
-          aria-label={t("title")}
-        >
+        <div className={styles.lessons__grid}>
           {lessons.map((lesson) => (
-            <Link
+            <article
               key={lesson.key}
-              href={lesson.href}
               className={styles.lessons__card}
             >
               <div className={styles.lessons__imageWrapper}>
@@ -74,18 +71,8 @@ export default function Lessons() {
                     {t(`items.${lesson.key}.description`)}
                   </p>
                 </div>
-
-                <span
-                  className={styles.lessons__arrow}
-                  aria-hidden="true"
-                >
-                  <ArrowUpRight
-                    size={19}
-                    strokeWidth={1.8}
-                  />
-                </span>
               </div>
-            </Link>
+            </article>
           ))}
         </div>
 

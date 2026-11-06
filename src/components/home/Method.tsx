@@ -1,12 +1,10 @@
 
 import {
-  ArrowUpRight,
   CarFront,
   Eye,
   Route
 } from "lucide-react";
 import {getTranslations} from "next-intl/server";
-import {Link} from "@/i18n/navigation";
 import styles from "./Method.module.css";
 
 export default async function Method() {
@@ -108,17 +106,6 @@ export default async function Method() {
           <p className={styles.method__statement}>
             {t("statement")}
           </p>
-
-          <Link
-            href="/#contact"
-            className={styles.method__link}
-          >
-            {t("cta")}
-            <ArrowUpRight
-              size={19}
-              aria-hidden="true"
-            />
-          </Link>
         </div>
       </div>
     </section>

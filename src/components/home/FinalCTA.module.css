@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 26px;
   width: 100%;
   max-width: 1200px;
   margin-inline: auto;
@@ -21,6 +20,7 @@
 /* Content */
 
 .cta__content {
+  width: 100%;
   max-width: 700px;
 }
 
@@ -42,35 +42,6 @@
   line-height: 1.7;
 }
 
-/* Button */
-
-.cta__button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  min-height: 52px;
-  padding: 14px 22px;
-  border-radius: 9px;
-  background: #ffffff;
-  color: #10263c;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.4;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.cta__button:hover {
-  background: #e8f2f8;
-}
-
-.cta__button:focus-visible {
-  outline: 3px solid #a9d9f2;
-  outline-offset: 4px;
-}
-
 /* Tablet and desktop */
 
 @media (min-width: 768px) {
@@ -79,25 +50,16 @@
   }
 
   .cta__container {
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 48px;
+    justify-content: center;
+  }
+
+  .cta__content {
+    max-width: 850px;
+    text-align: center;
   }
 
   .cta__content p {
     font-size: 20px;
-  }
-
-  .cta__button {
-    flex-shrink: 0;
-  }
-}
-
-/* Accessibility */
-
-@media (prefers-reduced-motion: reduce) {
-  .cta__button {
-    transition: none;
   }
 }

@@ -1,12 +1,10 @@
 
 import {
-  ArrowUpRight,
   HeartHandshake,
   Smile,
   Target
 } from "lucide-react";
 import {getTranslations} from "next-intl/server";
-import {Link} from "@/i18n/navigation";
 import styles from "./Mission.module.css";
 
 export default async function Mission() {
@@ -90,17 +88,6 @@ export default async function Mission() {
           <p className={styles.mission__statement}>
             {t("statement")}
           </p>
-
-          <Link
-            href="/#method"
-            className={styles.mission__link}
-          >
-            {t("cta")}
-            <ArrowUpRight
-              size={19}
-              aria-hidden="true"
-            />
-          </Link>
         </div>
       </div>
     </section>

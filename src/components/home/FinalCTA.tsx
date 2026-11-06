@@ -1,7 +1,5 @@
 
-import {ArrowUpRight} from "lucide-react";
 import {useTranslations} from "next-intl";
-import {Link} from "@/i18n/navigation";
 import styles from "./FinalCTA.module.css";
 
 export default function FinalCTA() {
@@ -22,17 +20,6 @@ export default function FinalCTA() {
             {t("description")}
           </p>
         </div>
-
-        <Link
-          href="/#contact"
-          className={styles.cta__button}
-        >
-          {t("button")}
-          <ArrowUpRight
-            size={20}
-            aria-hidden="true"
-          />
-        </Link>
       </div>
     </section>
   );

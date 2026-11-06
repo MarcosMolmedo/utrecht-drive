@@ -1,5 +1,5 @@
 
-import {CarFront, ArrowUpRight} from "lucide-react";
+import {CarFront} from "lucide-react";
 import {useTranslations} from "next-intl";
 import {Link} from "@/i18n/navigation";
 import styles from "./Footer.module.css";
@@ -49,16 +49,7 @@ export default function Footer() {
 
           <div className={styles.footer__contact}>
             <h3>{t("contactTitle")}</h3>
-
             <p>{t("contactDescription")}</p>
-
-            <Link
-              href="/#contact"
-              className={styles.footer__contactLink}
-            >
-              {t("contactButton")}
-              <ArrowUpRight size={18} aria-hidden="true" />
-            </Link>
           </div>
         </div>
 

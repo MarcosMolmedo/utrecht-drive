@@ -1,13 +1,11 @@
 
 import Image from "next/image";
 import {
-  ArrowUpRight,
   Award,
   HeartHandshake,
   Languages
 } from "lucide-react";
 import {getTranslations} from "next-intl/server";
-import {Link} from "@/i18n/navigation";
 import styles from "./Instructor.module.css";
 
 export default async function Instructor() {
@@ -109,17 +107,6 @@ export default async function Instructor() {
               </div>
             ))}
           </div>
-
-             <Link
-             href="/#mission"
-             className={styles.instructor__link} >
-            {t("cta")}
-
-            <ArrowUpRight
-              size={19}
-              aria-hidden="true"
-            />
-          </Link>
         </div>
       </div>
     </section>
